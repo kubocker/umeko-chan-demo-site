@@ -1,6 +1,5 @@
-# kubocchi designs
+# umeko chan demo site
 
 
-## DEMO
-https://kubocchi-designs.web.app
+https://umekochan.web.app/
 
