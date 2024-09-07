@@ -31,7 +31,7 @@
         <a class="btn btn-ghost normal-case text-xl" href="/">うめこちゃん</a>
       </div>
       <div class="navbar-end">
-        <label for="someInput" class="text-md fb-900 mr-5">support me: </label>
+        <!-- <label for="someInput" class="text-md fb-900 mr-5">support me: </label> -->
         <Group position={'right'} spacing={'sm'}>
           <!-- <ion-icon name="cafe" ios="ios-cafe" md="md-cafe" size="medium">カフェ代</ion-icon>
           <ion-icon name="book" ios="ios-book" md="md-book" size="medium">書籍代</ion-icon>
