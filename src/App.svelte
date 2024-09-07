@@ -2,7 +2,7 @@
   import { SvelteUIProvider, Group, } from '@svelteuidev/core';
   import { Router, Route } from 'svelte-routing';
 
-  import { IconCoffee, IconBook, IconDeviceGamepad2 } from '@tabler/icons-svelte';
+  import { IconCoffee, IconBook, IconDeviceGamepad2, IconBrandGithubFilled } from '@tabler/icons-svelte';
 
   /* app */
   import TopPage from './pages/TopPage.svelte';
@@ -55,6 +55,20 @@
         <a class="link link-hover" href="/terms_of_service">利用規約</a>
         <a class="link link-hover" href="/payment_of_service">資金決済法</a>
         <a class="link link-hover" href="/privacy_policy">プライバシーポリシー</a>
+      </nav>
+      <nav>
+      </nav>
+    </footer>
+    <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
+      <aside class="grid-flow-col items-center">
+        <p>Copyright © {new Date().getFullYear()} - All right reserved by kubocker</p>
+      </aside>
+      <nav class="md:place-self-center md:justify-self-end">
+        <div class="grid grid-flow-col gap-4">
+          <a class="link link-hover" href={'https://github.com/kubocker/umeko-chan-demo-site'}>
+            <IconBrandGithubFilled />
+          </a>
+        </div>
       </nav>
     </footer>
   </Router>
